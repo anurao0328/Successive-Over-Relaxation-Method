@@ -1,6 +1,4 @@
-import pypandoc
-
-readme = r"""# Study of Successive Over-Relaxation (SOR) Method
+# Study of Successive Over-Relaxation (SOR) Method
 
 ## 📌 Project Overview
 
@@ -219,8 +217,4 @@ The study also shows, through examples, that SOR can require fewer iterations th
 **Anusha**
 
 Master of Science in Mathematics
-"""
 
-output = "/mnt/data/README.md"
-pypandoc.convert_text(readme, "md", format="md", outputfile=output, extra_args=["--standalone"])
-print(output)
